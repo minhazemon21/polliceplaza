@@ -527,7 +527,7 @@ ul.btn li:last-child {
      padding: 20px;
      border: 1px solid #888;
      width: 48%;
-     top: 6rem;
+     top: 5rem;
    }
    
    /* The Close Button */
@@ -584,7 +584,43 @@ ul.btn li:last-child {
      
      backdrop-filter: blur(5px) !important;
 }
+.box_text{
+     box-shadow: 0 0 95px rgb(13 3 3 / 56%) !important;
+}
+@media (min-width:1900px) {
+     .modal-content{
+          top: 15rem;
+          
+     }
+}
+@media (min-width: 300px) and (max-width: 767px) {
+     .littlesceen{
+          width: 25%;
+          padding-left: 5px !important;
+          padding-right: 5px !important;
+     }
+     .box_text #myBtn, #myBtn1, #myBtn2, #myBtn3{
+          margin-top: -3rem;
+     }
+     .box_text{
+          height: 15rem;
+     }
+     .box_text figure img{
+          height: 10rem;
+     }
+     .modal-content{
+          width: 80%;
+     }
+     .littlesceenModelImg{
+          height: 478px !important;
+     }
+     .littlesceenModel{
+          width: 50%;
+          padding-left: 5px;
+          padding-right: 5px;
+     }
 
+}
 /* Emon work End */
 /** end banner section **/
 
